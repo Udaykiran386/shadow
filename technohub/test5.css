@@ -1,0 +1,52 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+pre{
+    color: coral;
+    background-color: black;
+}
+.class{
+    color: chocolate;
+    background-color: antiquewhite;
+}
+#id{
+    color: darkgoldenrod;
+    background-color: bisque;
+}
+div h1{
+    color: brown;
+    background-color: chartreuse;
+}
+div>h2{
+    color: cadetblue;
+    background-color: cornsilk;
+}
+h2+p{
+    color: blue;
+    background-color: aqua;
+}
+h1~p{
+    color: purple;
+    background-color: black;
+}
+a:link{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+a:visited{
+    color: rgb(179, 230, 245);
+}
+a:hover{
+    color: darkgrey;
+}
+a:active{
+    color: red;
+}
+::selection{
+    color: rgba(255, 0, 255, 0.473);
+    background-color: rgb(53, 50, 50);
+}
+div[a]{
+    color: black;
+}

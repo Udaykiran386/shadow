@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        td{
+            padding-right: 20px;
+            padding-top: 20px;
+        }
+        /* .Date{
+            width: 60px;
+            display: flex;
+            justify-content: center;
+        } */
+        #Date{
+            margin-right: 100px;
+            width: 60px;
+            justify-content: space-evenly;
+        }
+        .Date2{
+            margin-right: 50px;
+        }
+        /* 
+        .Date2{
+            margin-right: 100px;
+            width: 60px;
+            display: flex;
+            justify-content: center;
+        } */
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center;">Register</h1>
+        <table style="margin-left: 35%; background-color: blue;">
+            <form>
+                <tr>
+                    <td ><label><strong>First Name</strong></label></td>
+                    <td><input type="text" placeholder="Enter the First Name"></td>
+                </tr>
+                <tr>
+                    <td><label><strong>Last Name</strong></label></td>
+                    <td ><input type="text" placeholder="Enter the Last Name"></td>
+                </tr>
+                <tr>
+                    <td><label><strong>Gender</strong></label></td>
+                    <td ><input type="radio">male
+                        <input type="radio">female
+                    </td>
+                </tr>
+                <tr>
+                    <td><label><strong>E-mail Id</strong></label></td>
+                    <td ><input type="text" placeholder="Enter the E-mail Id"></td>
+                </tr>
+                <tr>
+                    <td><label><strong>Password</strong></label></td>
+                    <td>
+                        <input id="Date" type="text" placeholder="Password">
+                        <input id="Date" type="text" placeholder="rePassword">
+                    </td>
+                    
+                </tr>
+                <tr>
+                    <td><label><strong>Mobile No</strong></label></td>
+                    <td ><input type="text" placeholder="Enter the Mobile no"></td>
+                </tr> 
+                <tr>
+                    <td ><label><strong>Date Of Birth</strong></label></td>
+                    <td>
+                        <div class="mon">
+                            <input class="Date1" id="Date" type="text" placeholder="date">
+                            <input class="Date2" id="Date"  type="text" placeholder="month">
+                            <input class="Date3" id="Date"  type="text" placeholder="year">
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <fieldset>
+                            <legend>Address</legend>
+                            <textarea></textarea>
+                        </fieldset>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label><strong>Your city Name</strong></label></td>
+                    <td>
+                        <select>
+                            <option>Choose</option>
+                            <option>Visakhapatnam</option>
+                            <option>Chittoor</option>
+                            <option>Bengaluru</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label><strong>Pincode</strong></label></td>
+                    <td><input type="number" placeholder="xxxxxx"></td>
+                </tr>
+                <tr>
+                    <td><input type="submit" value="submit"></td>
+                </tr>
+            </form>
+        </table>
+    </div>
+</body>
+</html>

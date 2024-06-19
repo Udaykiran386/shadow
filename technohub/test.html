@@ -1,0 +1,236 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <Style>
+.CONT{
+    border: 5px solid black;
+    width:500px;
+    height: 700px;
+    margin-left: 35%;
+}
+h1{
+    text-align: center;
+    color: blue;
+}
+.box{
+    border: 1px solid red;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content:space-evenly;
+}
+.box-1{
+    border: 1px solid red;
+    width: 30%;
+    height: 90px; 
+    color: white;
+    background-color:darkcyan;
+    font-size: 100%;
+    text-align: center;
+}
+.box-2{
+    border: 1px solid red;
+    width: 30%;
+    height: 90px; 
+}
+p{
+    font-size: 150%;
+}
+
+    </STyle>
+</head>
+<body>
+    <div class="CONT">
+        <h1>Lorem ipsum dolor sit.</h1>
+        <div class="box">
+            <div class="box-1">1 <p>Lorem, ipsum.</p></div>
+            <div class="box-2"></div>
+
+        </div>
+    </div>
+</body>
+</html> -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        .cont{
+            border: 1px solid black;
+            background-color: black;
+            width: 100%;
+            height: 60px;
+            display: flex;
+            
+        }
+        .fa-home{
+            color: white;
+            display: flex;
+        margin-top: 1%;
+        font-size: 150%;
+        /* font-style: italic; */
+        }
+        .fa-building{
+            color: white;
+            display: flex;
+        margin-top: 1%;
+        margin-left: 20px;
+        font-size: 150%;
+        /* font-style: italic; */
+        }
+        .fa-wrench{
+            color: rgb(250, 250, 250);
+            display: flex;
+        margin-top: 1%;
+        margin-left: 20px;
+        font-size: 150%;
+        /* font-style: italic; */
+        }
+        .fa-suitcase{
+            color: white;
+            display: flex;
+        margin-top: 1%;
+        margin-left: 20px;
+        font-size: 150%;
+        /* font-style: italic; */
+        }
+        .fa-pencil-square-o{
+            color: white;
+            display: flex;
+        margin-top: 1%;
+        margin-left: 20px;
+        font-size: 150%;
+        /* font-style: italic; */
+        }
+        h3{
+            text-align: center;
+            justify-content: center;
+            display: flex;
+        
+        }
+        .fa-desktop{
+            color: orange;
+            font-size: 600%;
+            
+            justify-content: center;
+            display: flex;
+        }
+        #wrench{
+            font-size: 600%;
+            color: black;
+            justify-content: center;
+            display: flex;
+        }
+        .fa-search{
+            font-size: 600%;
+            
+            justify-content: center;
+            display: flex;
+        }
+        .fa-envelope{
+            font-size: 600%;
+            
+            justify-content: center;
+            display: flex;
+        }
+        .desktop{
+            text-align: center;
+            justify-content: center;
+            display: flex;
+            
+        }
+        .c{
+            border: none;
+            width: 70%;
+            height: 260px;
+            margin-left: 17%;
+            display: flex;
+            justify-content: space-evenly;
+        }
+        .c1{
+            /* border: 1px solid black; */
+            width: 45%;
+            height: 260px;
+            /* display: flex;
+            justify-content: space-evenly; */
+        }
+        .c2{
+            /* border: 1px solid black; */
+            width: 45%;
+            height: 260px;
+        }
+        .o{
+            border: none;
+            width: 70%;
+            height: 260px;
+            margin-left: 17%;
+            display: flex;
+            justify-content: space-evenly;
+        }
+        .o1{
+            /* border: 1px solid black; */
+            width: 45%;
+            height: 260px;
+        }
+        .o2{
+            /* border: 1px solid black; */
+            width: 45%;
+            height: 260px;
+        }
+    </style>
+</head>
+<body>
+    <div class="cont">
+        <i class="fa fa-home" aria-hidden="true">&nbsp;Home</i>
+        <i class="fa fa-building" aria-hidden="true"> &nbsp;About us</i>
+        <i class="fa fa-wrench" aria-hidden="true"> &nbsp;Our Service</i>
+        <i class="fa fa-suitcase" aria-hidden="true">&nbsp;Our Product</i>
+        <i class="fa fa-pencil-square-o" aria-hidden="true">&nbsp;Recent Blogs</i>
+    </div>
+    <br>
+    <div class="c">
+        <div class="c1">
+            <i class="fa fa-desktop" aria-hidden="true"></i>
+            <h3>Software Development</h3>
+            <p class="desktop">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                 Dolore optio molestiae delectus,
+                  doloremque itaque cum tempora nobis error magni asperiores aspernatur quas dignissimos,
+                  corporis tempore quibusdam officia, laudantium ad. Incidunt.</p>
+        </div>
+        <div class="c2">
+            <i class="fa fa-wrench" id="wrench" aria-hidden="true"> </i>
+            <!-- <i class="fa fa-cogs" aria-hidden="true"></i> -->
+            <h3>Website Modification</h3>
+            <p class="desktop">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                 Dolore optio molestiae delectus,
+                  doloremque itaque <del>cum tempora nobis error</del> magni asperiores aspernatur quas dignissimos,
+                  corporis <s>tempore quibusdam officia,</s> laudantium ad. Incidunt.</p>
+        </div>
+    </div>
+    <br>
+    <div class="o">
+        <div class="o1">
+            <i class="fa fa-search" aria-hidden="true"></i>
+            <h3>Digital Marketing</h3>
+            <p class="desktop">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                 Dolore optio molestiae delectus,
+                  doloremque itaque cum tempora nobis error magni asperiores aspernatur quas dignissimos,
+                  corporis tempore quibusdam officia, laudantium ad. Incidunt.</p>
+        </div>
+        <div class="o2">
+            <i class="fa fa-envelope" aria-hidden="true"></i>
+            <h3>e-Marketing</h3>
+            <p class="desktop">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                 Dolore optio molestiae delectus,
+                  doloremque itaque cum tempora nobis error magni asperiores aspernatur quas dignissimos,
+                  corporis tempore quibusdam officia, laudantium ad. Incidunt.</p>
+        </div>
+    </div>
+</body>
+</html>

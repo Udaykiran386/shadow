@@ -1,0 +1,10 @@
+body{
+    text-align: center;
+}
+.cont{
+    border: 1px solid darkblue;
+width: 40%;
+height: 500px;
+margin-left: 30%;
+background-color: rgb(17, 157, 212);
+}
